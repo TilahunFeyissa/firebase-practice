@@ -1,0 +1,13 @@
+create web app
+    add wep nick name
+    select Use a <script> tag
+    copy the data and add it into your script
+goto firestore database
+    create a database
+go to documentation
+    import firesore database   
+        copy your initializeapp and change the last directory to firestore.js
+            ex:-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.11.0/       firebase-app.js";
+                import { getFirestore  } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js"; 
+Initialize Cloud Firestore
+    const db = getFirestore(app);    inside Initialize Firebase
